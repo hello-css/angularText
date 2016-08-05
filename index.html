@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="emailApp">
+<head>
+    <meta charset="UTF-8">
+    <title set-title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="side-bar left decorate1" ng-controller="handler1">
+    <ul>
+        <li ui-sref="emails" ng-class="{'active':flag[0]}" ng-click="setActiveClass(1)"><span>+</span>新邮件</li>
+        <li ui-sref="account" ng-class="{'active':flag[1]}" ng-click="setActiveClass(2)"><span>&nbsp;</span>账户</li>
+        <li ui-sref="files" ng-class="{'active':flag[2]}" ng-click="setActiveClass(3)"><span>&nbsp;</span>文件夹</li>
+    </ul>
+</div>
+<div ui-view class="right-area left">
+
+</div>
+
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-ui-router.js"></script>
+<script src="js/config.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/directives.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.side-bar,.right-area{
+    height: 100%;
+}
+.right-area{
+    width: 80%;
+}
+.side-bar{
+    line-height: 44px;
+    text-indent: 10px;
+
+}
+.decorate1{
+    width: 20%;
+    background: forestgreen;
+    color: #ffffff;
+}
+.decorate2{
+    width: 30%;
+    background: #ededed;
+    color: #333;
+}
+.side-bar span{
+    float: left;
+    width: 20px;
+    height: 100%;
+}
+.decorate1 li.active{
+    background: #5ec85d;
+}
+.decorate2 li.active{
+    background: #5afba3;
+}
+.files-area{
+    background: lightgoldenrodyellow;
+    width: 100%;
+    height: 100%;
+}
+.new-email label{
+    width: 100%;
+    line-height: 50px;
+    border: 1px solid #eee;
+}
+.new-email {
+    width: 100%;
+    height: 100%;
+}
